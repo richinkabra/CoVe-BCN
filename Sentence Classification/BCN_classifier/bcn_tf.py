@@ -1,30 +1,7 @@
-# This file makes use of the InferSent, SentEval and CoVe libraries, and may contain adapted code from the repositories
-# containing these libraries. Their licenses can be found in <this-repository>/Licenses.
-#
-# InferSent and SentEval:
-#   Copyright (c) 2017-present, Facebook, Inc. All rights reserved.
-#   InferSent repository: https://github.com/facebookresearch/InferSent
-#   SentEval repository: https://github.com/facebookresearch/SentEval
-#   Reference: Conneau, Alexis, Kiela, Douwe, Schwenk, Holger, Barrault, Loic, and Bordes, Antoine. Supervised learning
-#              of universal sentence representations from natural language inference data. In Proceedings of the 2017
-#              Conference on Empirical Methods in Natural Language Processing, pp. 670-680. Association for
-#              Computational Linguistics, 2017.
-#
-# CoVe:
-#   Copyright (c) 2017, Salesforce.com, Inc. All rights reserved.
-#   Repository: https://github.com/salesforce/cove
-#   Reference: McCann, Bryan, Bradbury, James, Xiong, Caiming, and Socher, Richard. Learned in translation:
-#              Contextualized word vectors. In Advances in Neural Information Processing Systems 30, pp, 6297-6308.
-#              Curran Associates, Inc., 2017.
-#
-# This code also makes use of TensorFlow: Martin Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen, Craig
-# Citro, Greg S. Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, Sanjay Ghemawat, Ian Goodfellow, Andrew Harp,
-# Geoffrey Irving, Michael Isard, Rafal Jozefowicz, Yangqing Jia, Lukasz Kaiser, Manjunath Kudlur, Josh Levenberg, Dan
-# Mane, Mike Schuster, Rajat Monga, Sherry Moore, Derek Murray, Chris Olah, Jonathon Shlens, Benoit Steiner, Ilya
-# Sutskever, Kunal Talwar, Paul Tucker, Vincent Vanhoucke, Vijay Vasudevan, Fernanda Viegas, Oriol Vinyals, Pete Warden,
-# Martin Wattenberg, Martin Wicke, Yuan Yu, and Xiaoqiang Zheng. TensorFlow: Large-scale machine learning on
-# heterogeneous systems, 2015. Software available from tensorflow.org.
-#
+# References:
+# https://github.com/markmenezes11/COMPM091/blob/master/CoVe-BCN/model.py
+# https://github.com/adi2103/AML-CoVe/blob/master/Classification%20Networks/BCN.ipynb 
+
 
 import sys
 import os
