@@ -65,14 +65,6 @@ class TREC50DatasetReader(DatasetReader):
             label : `LabelField`
                 The sentiment label of the sentence or phrase.
         """
-           #   qclass_nums = {
-        #     'ABBR':0,
-        #     'DESC':1,
-        #     'ENTY':2,
-        #     'HUM':3,
-        #     'LOC':4,
-        #     'NYM':5
-        # } 
         qclass_set = set(qclass)
         print(qclass_set)
         qclass_num = {}
