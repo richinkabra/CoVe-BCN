@@ -1,4 +1,5 @@
 # References:
+# Learned in Translation : Contextualized Word Vectors : https://arxiv.org/pdf/1708.00107.pdf 
 # https://github.com/markmenezes11/COMPM091/blob/master/CoVe-BCN/model.py
 # https://github.com/adi2103/AML-CoVe/blob/master/Classification%20Networks/BCN.ipynb 
 
