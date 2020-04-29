@@ -33,6 +33,10 @@ class BCN:
         self.outputdir = outputdir
         self.W_init = weight_init
         self.b_init = bias_init
+        max_sent_len = self.max_sent_len
+        params = self.params
+        n_classes = self.n_classes
+        embed_dim = self.embed_dim
 
     def create_model(self):
         
