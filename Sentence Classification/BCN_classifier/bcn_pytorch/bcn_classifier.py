@@ -1,3 +1,4 @@
+# Learned in Translation - Contextualized Word Vectors : https://arxiv.org/pdf/1708.00107.pdf
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
