@@ -1,4 +1,4 @@
-# Transfer Learaning in NLP - Contextualized Word Vectors
+## Transfer Learaning in NLP - Context Vectors (CoVe)
 
 Codebase to generate contextualized word vectors by training a sequence-to-sequence model based on LSTMs for machine translation (MT) task. The hidden state output of the machine translation model’s encoder can be called CoVe (Context Vectors) and be used to represent useful context-based information about text. To show the improvement in accuracy in downstream sentiment and question classification tasks (SST-2, SST-5, IMDb, TREC-6, and TREC-50 datasets), a Biattentive Classification Network (BCN) is used. The BCN results show that using CoVe has a higher test accuracy than random, GloVe, or character embeddings.
 
