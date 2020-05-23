@@ -14,11 +14,13 @@ Convolutional Neural Networks for Sentence Classification: Yoon Kim (https://arx
 
 Deep contextualized word representations: Matthew E. Peters, Mark Neumann, Mohit Iyyer, Matt Gardner, Christopher Clark, Kenton Lee, Luke Zettlemoyer (https://arxiv.org/abs/1802.05365)
 
-# Requirements
+## Requirements
 
 blis==0.4.1
+
 catalogue==1.0.0
 certifi==2020.4.5.1
+
 chardet==3.0.4
 cymem==2.0.3
 docopt==0.6.2
