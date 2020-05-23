@@ -1,4 +1,4 @@
-# Transfer Learning in NLP - Context Vectors (CoVe)
+# Transfer Learning in NLP - Contextualized Word Vectors
 
 Codebase to generate contextualized word vectors by training a sequence-to-sequence model based on a two-layer bidirectional LSTM for machine translation (MT) task. The hidden state output of the second layer of the machine translation model’s encoder, called CoVe (Context Vectors) in McCann et al. 2017, is used to represent useful context-based information about text. To show the improvement in accuracy in downstream sentiment and question classification tasks (SST-2, SST-5, IMDb, TREC-6, and TREC-50 datasets), a Biattentive Classification Network (BCN) is used. The BCN results show that using CoVe has a higher test accuracy than random, GloVe, or character embeddings. A further improvement in accuracy is obtained if a weighted sum of all the hidden states of a several layer bidirectional LSTM encoder, called ELMo (Embeddings from Language Models) in Peters et al. 2017, is used.
 
